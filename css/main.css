@@ -67,3 +67,15 @@ textarea {
   margin: 1em 0;
   resize: vertical;
 }
+
+.video {
+  width: 100%;
+  display: flex;
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
