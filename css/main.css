@@ -2,6 +2,7 @@ html {
   color: #222;
   font-size: 1.6em;
   line-height: 1.4;
+  background-color: #fde9eb;
 }
 
 .wrap {
@@ -16,10 +17,18 @@ html {
 
 mark {
   background-color: rgba(255, 255, 0, .5);
+  color: black;
+  font-weight: bolder;
 }
 
 em {
   color: rgb(0, 217, 255);
+  font-weight: bolder;
+}
+
+b,strong {
+  font-weight: bolder;
+  color: black;
 }
 
 a {
@@ -39,7 +48,7 @@ blockquote {
 figure {
   margin: 0;
   padding: .7em;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 figcaption {
